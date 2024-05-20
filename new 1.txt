@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="product">
+        <img src="image_url.jpg" alt="Product Name">
+        <h3>Product Name</h3>
+        <p>$Price</p>
+        <p>Description</p>
+    </div>
+    <!-- Repeat the above div block for each product, changing the details accordingly -->
+</body>
+</html>

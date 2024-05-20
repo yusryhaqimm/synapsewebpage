@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synapse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+    </header>
+    <div class="hero">
+        <h2>Synapse products</h2>
+    </div>
+    <div class="container">
+        <section id="products">
+            <div class="products-header">
+                <h2>Products</h2>
+                <input type="text" id="search-bar" placeholder="Search products...">
+            </div>
+            <div class="products">
+                <div class="product">
+                    <a href="product1.html">
+                        <img src="product.png" alt="Description of Product 1">
+                        <h3>Product 1</h3>
+                        <p>Price: $99.99</p>
+                        <p>Description: This is the first product.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="product2.html">
+                        <img src="product.png" alt="Description of Product 2">
+                        <h3>Product 2</h3>
+                        <p>Price: $89.99</p>
+                        <p>Description: This is the second product.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="product3.html">
+                        <img src="product.png" alt="Description of Product 3">
+                        <h3>Product 3</h3>
+                        <p>Price: $79.99</p>
+                        <p>Description: This is the third product.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="product4.html">
+                        <img src="product.png" alt="Description of Product 4">
+                        <h3>Product 4</h3>
+                        <p>Price: $69.99</p>
+                        <p>Description: This is the fourth product.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="product5.html">
+                        <img src="product.png" alt="Description of Product 5">
+                        <h3>Product 5</h3>
+                        <p>Price: $59.99</p>
+                        <p>Description: This is the fifth product.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="product6.html">
+                        <img src="product.png" alt="Description of Product 6">
+                        <h3>Product 6</h3>
+                        <p>Price: $49.99</p>
+                        <p>Description: This is the sixth product.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="product7.html">
+                        <img src="product.png" alt="Description of Product 7">
+                        <h3>Product 7</h3>
+                        <p>Price: $39.99</p>
+                        <p>Description: This is the seventh product.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="product8.html">
+                        <img src="product.png" alt="Description of Product 8">
+                        <h3>Product 8</h3>
+                        <p>Price: $29.99</p>
+                        <p>Description: This is the eighth product.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                </ul>
+            </div>
+            <div class="services">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#">Service 1</a></li>
+                    <li><a href="#">Service 2</a></li>
+                    <li><a href="#">Service 3</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>Email: contact@synapselaboratory.com</p>
+                <p>Phone: +603-7880 8730</p>
+                <p>Address: Unit 203 & 205, Block D, Kelana Square, 17, Jalan SS7/26, Kelana Jaya, 47301 Petaling Jaya, Selangor, Malaysia</p>
+                <p>Website: <a href="https://synapselaboratory.com/">https://synapselaboratory.com/</a></p>
+            </div>
+        </div>
+        <p>2024 Synagene. All rights reserved.</p>
+    </footer>
+	<script src="script.js"></script>
+</body>
+</html>
