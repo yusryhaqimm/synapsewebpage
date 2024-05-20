@@ -168,6 +168,40 @@
         .quick-links a:hover, .services a:hover {
             text-decoration: underline;
         }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            .product {
+                flex-basis: calc(50% - 20px); /* Makes two products per row on smaller screens */
+            }
+
+            #search-bar {
+                width: 50%; /* Larger search bar on smaller screens */
+            }
+
+            header img {
+                height: 60px;
+                width: 100px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h2 {
+                font-size: 1.5em;
+            }
+
+            .product {
+                flex-basis: 100%; /* Full width for very small screens */
+            }
+
+            #search-bar {
+                width: 100%; /* Full width search bar on very small screens */
+            }
+        }
     </style>
 </head>
 <body>
